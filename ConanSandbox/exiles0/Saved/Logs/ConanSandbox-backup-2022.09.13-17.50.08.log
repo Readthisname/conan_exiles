@@ -1,0 +1,287 @@
+﻿Log file open, 09/13/22 17:48:20
+LogPakFile:Warning: Spent 0.218 seconds mounting Pak File "../../../ConanSandbox/Content/Paks/Sound.pak". Mounting status: Success
+LogPakFile:Warning: Spent 0.200 seconds mounting Pak File "../../../ConanSandbox/Content/Paks/Environment.pak". Mounting status: Success
+LogPakFile:Warning: Spent 0.105 seconds mounting Pak File "../../../ConanSandbox/Content/Paks/Characters.pak". Mounting status: Success
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogInit: Using libcurl 7.55.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2u
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogSilentEventQueue:Warning: Failed to update persistent event, queue is not ready. Category: pse_FlsBackendEnvironment
+LogOnlineSubsystemFls:Display: 
+--- FLS ENVIRONMENT INFO ---
+ OSS:                    Null
+ GameTitleId:            A5B4F(Live)
+ InstanceName:           DefaultInstance
+ IniPlatformName:        
+ OnlineEnvironment:      Unknown
+ ExportCharacterUrl:     https://exiles-fls-live.azurewebsites.net/api/ExportCharacter?code=6Y06x/Jdx/6R2qyP5JwOsUL5Ny/Fp3aETlYrUIjXirpduwxmc05SOw==
+ ImportCharacterUrl:     https://exiles-fls-live.azurewebsites.net/api/ImportCharacter?code=VTHpJa9C8Davf7yo7zZD17lnLlYA0BtyOnRxpClM4uCoag1C/vZkUg==
+ GetBuildOverridesUrl:   https://exiles-fls-live.azurewebsites.net/api/GetBuildOverrides?code=QgZ34DOPcBOns8tJvw9P8FmzjsDuwM2d7/nIOrPBTORTXRFYUKHLVg==
+LogTemp: Using NVIDIAGfeSDKPlugin version 1.0.0
+LogModManager: Starting mod runtime module.
+LogInit: Build: ue415-dw-osl-CL-412633.0
+LogInit: Engine Version: 4.15.3-412633+ue415-dw-osl
+LogInit: Compatible Engine Version: 4.15.0-412633+ue415-dw-osl
+LogInit: Net CL: 412633
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 15
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Sep 13 2022 00:32:21
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Test
+LogInit: Branch Name: ue415-dw-osl
+LogInit: Command line: -nosteamclient -game -server -log -userdir=exiles0
+LogInit: Base directory: Z:/conanexiles/ConanSandbox/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Nativized: No
+LogInit: Presizing for max 10000000 objects, including 42000 objects not considered by GC, pre-allocating 13000000 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2022.09.13-15.48.20:875][  0]LogConsoleManager:Warning: Setting the console variable 'grass.densityScale' to '1.0' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '1.5'
+[2022.09.13-15.48.20:876][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsServer]
+[2022.09.13-15.48.20:897][  0]LogInit: Setting Device Profile CVar: [[r.DynamicRes.FrameTimeBudget:33.3 -> 33.3]]
+[2022.09.13-15.48.20:897][  0]LogInit: Computer: [724bf08322f17f1530a379c9be53b52c]
+[2022.09.13-15.48.20:897][  0]LogInit: User: [63a9f0ea7bb98050796b649e85481845]
+[2022.09.13-15.48.20:897][  0]LogInit: CPU Page size=65536, Cores=2
+[2022.09.13-15.48.20:897][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.09.13-15.48.20:898][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2022.09.13-15.48.20:898][  0]LogMemory: Platform Memory Stats for WindowsServer
+[2022.09.13-15.48.20:898][  0]LogMemory: Process Physical Memory: 255.11 MB used, 255.11 MB peak
+[2022.09.13-15.48.20:898][  0]LogMemory: Process Virtual Memory: 230.05 MB used, 230.05 MB peak
+[2022.09.13-15.48.20:898][  0]LogMemory: Physical Memory: 560.72 MB used,  7395.16 MB free, 7955.89 MB total
+[2022.09.13-15.48.20:898][  0]LogMemory: Virtual Memory: 233.26 MB used,  7395.16 MB free, 134217728.00 MB total
+[2022.09.13-15.48.21:572][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2022.09.13-15.48.22:824][  0]LogAssetRegistry: FAssetRegistry took 0.7706 seconds to start up
+[2022.09.13-15.48.22:983][  0]LogDreamworld:Display: Dreamworld project: ConanSandbox
+[2022.09.13-15.48.22:983][  0]LogDreamworld:Display: Dreamworld configuration: ConanSandbox.Client.VS2015.Live.Win64
+[2022.09.13-15.48.22:984][  0]LogDreamworld:Display: Dreamworld platform: x64
+[2022.09.13-15.48.22:984][  0]LogDreamworld:Display: Dreamworld revision: 412633
+[2022.09.13-15.48.22:984][  0]LogDreamworld:Display: Dreamworld snapshot: 34834
+[2022.09.13-15.48.22:984][  0]LogDreamworld:Display: Dreamworld branch: exiles-live
+[2022.09.13-15.48.22:986][  0]LogDreamworld:Display: Platform (.ini): <unknown>
+[2022.09.13-15.48.22:988][  0]LogDreamworld:Display: Platform: WindowsServer
+[2022.09.13-15.48.22:988][  0]LogDreamworld:Display: .ini sub-platform prefix: <not specified>
+[2022.09.13-15.48.23:013][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 2 prioritized culture(s) in 0.011132 seconds
+[2022.09.13-15.48.23:618][  0]LogNetVersion: GetLocalNetworkVersion: CL: 412633, ProjectName: conansandbox, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3314829541
+[2022.09.13-15.48.23:618][  0]LogNetVersion: GetLocalNetworkVersionOverride: NetworkChecksum: 1232807954
+[2022.09.13-15.48.23:649][  0]LogUObjectArray: 53583 objects as part of root set at end of initial load.
+[2022.09.13-15.48.23:649][  0]LogUObjectAllocator: 10502616 out of 13000000 bytes used by permanent object pool.
+[2022.09.13-15.48.23:649][  0]LogUObjectArray: CloseDisregardForGC: 53583/0 objects in disregard for GC pool
+[2022.09.13-15.48.23:696][  0]LogGameTweakSystem:Warning: Failed to load CvarOverrides from cache
+[2022.09.13-15.48.23:696][  0]LogGameTweakSystem:Display: Received Build overrides from FLS
+[2022.09.13-15.48.23:697][  0]LogGameTweakSystem:Display: GameTweak 'BuildingItemRefund' set to '1'
+[2022.09.13-15.48.23:697][  0]LogGameTweakSystem:Display: GameTweak 'RequiresRestartFeature' set to '1'
+[2022.09.13-15.48.23:697][  0]LogGameTweakSystem:Display: GameTweak 'RevisionOverride' set to '411914'
+[2022.09.13-15.48.23:697][  0]LogGameTweakSystem:Display: GameTweak 'ServerTransfer' set to '0'
+[2022.09.13-15.48.23:698][  0]LogGameTweakSystem:Display: GameTweak 'SnapshotOverride' set to '34793'
+[2022.09.13-15.48.23:705][  0]ConanSandbox:Display: GetGameTweakDataPatchPath '../../../ConanSandbox/exiles0/Saved/Config/WindowsServer/DataPatches/' does not exist
+[2022.09.13-15.48.23:706][  0]UserSettings:Display: User's IP Country Code is --
+[2022.09.13-15.48.23:714][  0]LogMemory:Display: Entered application state 'ConanSandboxStarting'.
+[2022.09.13-15.48.23:715][  0]LogModuleManager:Warning: ModuleManager: Module 'EnvironmentQueryEditor' not found - its StaticallyLinkedModuleInitializers function is null.
+[2022.09.13-15.48.23:746][  0]LogOnline:Display: STEAM: Loading Steam SDK 1.38a
+[2022.09.13-15.48.23:962][  0]LogHoudiniEngine: Starting the Houdini Engine module.
+[2022.09.13-15.48.23:981][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2022.09.13-15.48.23:981][  0]VivoxCore: FVivoxCoreModule::StartupModule
+[2022.09.13-15.48.24:023][  0]VivoxCore: Loaded Library (../../../ConanSandbox/Plugins/VivoxCoreUE4Plugin/Source/ThirdParty/VivoxCoreLibrary/Windows/vivoxsdk/x64/Release/ortp.dll)
+[2022.09.13-15.48.24:129][  0]VivoxCore: Loaded Library (../../../ConanSandbox/Plugins/VivoxCoreUE4Plugin/Source/ThirdParty/VivoxCoreLibrary/Windows/vivoxsdk/x64/Release/vivoxsdk.dll)
+[2022.09.13-15.48.24:141][  0]LogRcon:Display: Rcon listen socket starting up using listen port 25575 ...
+[2022.09.13-15.48.24:142][  0]LogInit: WinSock: I am 3e868d68b7a7 (172.21.0.2:0)
+[2022.09.13-15.48.24:155][  0]LogRcon:Display: Rcon is ready for client connections on 0.0.0.0:25575!
+[2022.09.13-15.48.24:155][  0]LogModManager: Searching for mod/dlc controllers.
+[2022.09.13-15.48.28:553][  0]LogModManager: AddCurrentlyLoadedModControllers
+[2022.09.13-15.48.28:554][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Nemedia/DLC_Nemedia_Modcontroller.DLC_Nemedia_Modcontroller_C
+[2022.09.13-15.48.28:574][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Yamatai/DLC_Yamatai_ModController.DLC_Yamatai_ModController_C
+[2022.09.13-15.48.28:598][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Turan/DLC_Turan_Modcontroller.DLC_Turan_Modcontroller_C
+[2022.09.13-15.48.28:619][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Siptah/DLC_Siptah_Modcontroller.DLC_Siptah_Modcontroller_C
+[2022.09.13-15.48.28:647][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 150, overwriting.
+[2022.09.13-15.48.28:650][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_RPPack/DLC_RPpack_ModController.DLC_RPpack_ModController_C
+[2022.09.13-15.48.28:665][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 120, overwriting.
+[2022.09.13-15.48.28:666][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 121, overwriting.
+[2022.09.13-15.48.28:667][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 122, overwriting.
+[2022.09.13-15.48.28:668][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 123, overwriting.
+[2022.09.13-15.48.28:668][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 124, overwriting.
+[2022.09.13-15.48.28:669][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 125, overwriting.
+[2022.09.13-15.48.28:675][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 126, overwriting.
+[2022.09.13-15.48.28:676][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 127, overwriting.
+[2022.09.13-15.48.28:676][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 128, overwriting.
+[2022.09.13-15.48.28:677][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 140, overwriting.
+[2022.09.13-15.48.28:677][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 141, overwriting.
+[2022.09.13-15.48.28:678][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 142, overwriting.
+[2022.09.13-15.48.28:679][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Riders/DLC_Riders_ModController.DLC_Riders_ModController_C
+[2022.09.13-15.48.28:699][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_RiddleOfSteel/DLC_RiddleOfSteel_ModController.DLC_RiddleOfSteel_ModController_C
+[2022.09.13-15.48.28:706][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Pict/DLC_Pict_Modcontroller.DLC_Pict_Modcontroller_C
+[2022.09.13-15.48.28:730][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/Special/BP_Special_ModController.BP_Special_ModController_C
+[2022.09.13-15.48.28:765][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 160, overwriting.
+[2022.09.13-15.48.28:766][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 161, overwriting.
+[2022.09.13-15.48.28:767][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 162, overwriting.
+[2022.09.13-15.48.28:767][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 163, overwriting.
+[2022.09.13-15.48.28:768][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 164, overwriting.
+[2022.09.13-15.48.28:768][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 165, overwriting.
+[2022.09.13-15.48.28:769][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 166, overwriting.
+[2022.09.13-15.48.28:769][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 167, overwriting.
+[2022.09.13-15.48.28:769][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 168, overwriting.
+[2022.09.13-15.48.28:770][  0]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 169, overwriting.
+[2022.09.13-15.48.28:775][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Khitai/BP_ModController_Khitai_DLC.BP_ModController_Khitai_DLC_C
+[2022.09.13-15.48.28:796][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_EARhino/DLC_EARhino_Modcontroller.DLC_EARhino_Modcontroller_C
+[2022.09.13-15.48.28:798][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_BloodAndSand/DLC_BAS_Modcontroller.DLC_BAS_Modcontroller_C
+[2022.09.13-15.48.28:816][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Argos/DLC_Argos_ModController.DLC_Argos_ModController_C
+[2022.09.13-15.48.28:835][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_ModController.DLC_Aquilonia_ModController_C
+[2022.09.13-15.48.28:856][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/ConanSword_DLC/BP_ConanSword_DLC_ModController.BP_ConanSword_DLC_ModController_C
+[2022.09.13-15.48.28:857][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/ConanArmor_DLC/BP_ConanArmor_DLC_ModController.BP_ConanArmor_DLC_ModController_C
+[2022.09.13-15.48.28:860][  0]LogModManager: Done searching for mod controllers. Time taken: 3.836497 [s]
+[2022.09.13-15.48.28:860][  0]LogEngine: Initializing Engine...
+[2022.09.13-15.48.28:876][  0]LogStreaming:Error: Couldn't find file for package /Engine/EditorMaterials/GizmoMaterial requested by async loading code. NameToLoad: /Engine/EditorMaterials/GizmoMaterial
+[2022.09.13-15.48.28:876][  0]LogStreaming:Error: Found 0 dependent packages...
+[2022.09.13-15.48.28:877][  0]LogEngine: ERROR: Failed to load special material '/Engine/EditorMaterials/GizmoMaterial.GizmoMaterial'. This will probably have bad consequences (depending on its use)
+[2022.09.13-15.48.28:882][  0]LogInit: Texture streaming: Disabled
+[2022.09.13-15.48.28:967][  0]ConanSandbox:Warning: Forced to sync load MapData table
+[2022.09.13-15.48.28:969][  0]LogInit:Display: Game Engine Initialized.
+[2022.09.13-15.48.28:970][  0]LogInit:Display: Starting Game.
+[2022.09.13-15.48.28:970][  0]LogNet: Browse: /Game/Maps/ConanSandbox/ConanSandbox?Name=Player
+[2022.09.13-15.48.28:970][  0]ConanSandbox: PreLoadMap_Callback begin
+[2022.09.13-15.48.28:970][  0]UnitTest:Display: ClientState: 0
+[2022.09.13-15.48.28:970][  0]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.000000 [s] 
+[2022.09.13-15.48.28:970][  0]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.000000 [s] 
+[2022.09.13-15.48.29:024][  0]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.000205 [s] 
+[2022.09.13-15.48.29:024][  0]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.000384 [s] 
+[2022.09.13-15.48.29:024][  0]ConanSandbox: PreLoadMap_Callback end. Time taken: 0.000496 [s]
+[2022.09.13-15.48.29:024][  0]LogLoad: LoadMap: /Game/Maps/ConanSandbox/ConanSandbox?Name=Player
+[2022.09.13-15.48.34:983][  0]LogStreaming:Error: Couldn't find file for package /Engine/EditorMeshes/MatineeCam_SM requested by async loading code. NameToLoad: /Engine/EditorMeshes/MatineeCam_SM
+[2022.09.13-15.48.34:984][  0]LogStreaming:Error: Found 1 dependent packages...
+[2022.09.13-15.48.34:984][  0]LogStreaming:Error:   /Game/Maps/ConanSandbox/ConanSandbox
+[2022.09.13-15.48.34:989][  0]LogNavMesh: dtNavMesh allocations: dtMeshTile (176) x m_maxTiles (25000) = 4400000 bytes, lut: dtMeshTile* (8) x m_tileLutSize (8192) = 65536 bytes
+[2022.09.13-15.48.34:990][  0]LogAIModule: Creating AISystem for world ConanSandbox
+[2022.09.13-15.48.34:990][  0]LogLoad: Game class is 'BaseGameMode_C'
+[2022.09.13-15.48.34:992][  0]PacketHandlerLog: DDoS detection status: detection enabled: 1 analytics enabled: 1
+[2022.09.13-15.48.34:993][  0]LogInit: WinSock: Socket queue 131072 / 131072
+[2022.09.13-15.48.34:993][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.09.13-15.48.34:993][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2022.09.13-15.48.35:012][  0]LogWorld: Bringing World /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox up for play (max tick rate 30) at 2022.09.13-17.48.35
+[2022.09.13-15.48.35:013][  0]LogMemory:Display: Entered application state 'InitGame'.
+[2022.09.13-15.48.35:014][  0]LogGameSession:Warning: Autologin attempt failed, unable to register server!
+[2022.09.13-15.48.35:015][  0]GlobalServerChannel:Display: Loading ServerSettings File: ../../../ConanSandbox/exiles0/Saved/Config/WindowsServer/ServerSettings.ini
+[2022.09.13-15.48.35:017][  0]ConanSandbox: Init map with unique name 'The Exiled Lands' and unique ID (CRC32 hash) 1988349854
+[2022.09.13-15.48.35:208][  0]LogDreamworld:Display: CreateBackup: database z:\conanexiles\conansandbox\exiles0\saved\game.db backup complete.
+[2022.09.13-15.48.35:255][  0]Persistence: ConanDBHelper::Maintenance_BuildingInstance(): Removed by cell: 0 Grid size: 10000 [uu]
+[2022.09.13-15.48.35:255][  0]Persistence: ConanDBHelper::Maintenance_BuildingInstance(): Removed by class: 0
+[2022.09.13-15.48.35:257][  0]Persistence: ConanDBHelper::Maintenance(): Building instances - Success
+[2022.09.13-15.48.35:262][  0]Persistence: ConanDBHelper::Maintenance(): Placeables - Success
+[2022.09.13-15.48.35:265][  0]Persistence: ConanDBHelper::Maintenance_DuplicatedFeats(): No duplicates
+[2022.09.13-15.48.35:265][  0]Persistence: ConanDBHelper::Maintenance(): Duplicated feats - Success
+[2022.09.13-15.48.35:267][  0]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table item_inventory is ok
+[2022.09.13-15.48.35:270][  0]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table item_properties is ok
+[2022.09.13-15.48.35:273][  0]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table properties is ok
+[2022.09.13-15.48.35:275][  0]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table buildings is ok
+[2022.09.13-15.48.35:277][  0]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table building_instances is ok
+[2022.09.13-15.48.35:278][  0]Persistence: ConanDBHelper::Maintenance(): Orphaned rows - Success
+[2022.09.13-15.48.35:481][  0]Persistence: ConanDBHelper::Maintenance(): Database file - Success
+[2022.09.13-15.48.35:482][  0]ConanSandbox:Display: ConanDBHelper Maintenance completed in 0.3 seconds.
+[2022.09.13-15.48.35:499][  0]Main:Display: Creating ServiceActors for "/Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel.BaseGameState_C_0"...
+[2022.09.13-15.48.35:506][  0]Main:Display: Registered service actor "BP_ComboRulesLookup_C" with interface "/Game/Systems/Combat/ComboSystem/BP_ComboRulesLookupInterface.BP_ComboRulesLookupInterface_C".
+[2022.09.13-15.48.35:766][  0]Main:Display: Registered service actor "BP_ItemTagService_C" with interface "/Game/Systems/Inventory/Tags/BP_ItemTagServiceInterface.BP_ItemTagServiceInterface_C".
+[2022.09.13-15.48.35:779][  0]Main:Display: Registered service actor "BP_EventManager_C" with interface "/Game/DLC/Special/Events/EventSystems/BPI_EventSystem.BPI_EventSystem_C".
+[2022.09.13-15.48.35:780][  0]Main:Display: Registered service actor "BP_EventManager_C" with interface "/Game/Gameplay/BPI_EventSystem_External.BPI_EventSystem_External_C".
+[2022.09.13-15.48.35:782][  0]Main:Display: Registered service actor "BP_RevealCorruption_Manager_C" with interface "/Game/Sorcery/Spells/Reveal_Corruption/I_RevealedCorruption.I_RevealedCorruption_C".
+[2022.09.13-15.48.35:783][  0]Audio:Display: Not creating SoundStage: Running on dedicated server.
+[2022.09.13-15.48.35:788][  0]LogWorld: Bringing up level for play took: 0.786999
+[2022.09.13-15.48.35:791][  0]LogMemory:Display: Entered application state 'StartPlay'.
+[2022.09.13-15.48.35:792][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2022.09.13-15.48.35:792][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2022.09.13-15.48.35:792][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2022.09.13-15.48.35:860][  0]Persistence: Loading/Spawning active mod controllers, #16 expected
+[2022.09.13-15.48.35:863][  0]Persistence: Loading mod controller: DLC_Nemedia_Modcontroller_C
+[2022.09.13-15.48.35:865][  0]Persistence: Loading mod controller: DLC_Yamatai_ModController_C
+[2022.09.13-15.48.35:868][  0]Persistence: Loading mod controller: DLC_Turan_Modcontroller_C
+[2022.09.13-15.48.35:870][  0]Persistence: Loading mod controller: DLC_Siptah_Modcontroller_C
+[2022.09.13-15.48.35:872][  0]Persistence: Loading mod controller: DLC_RPpack_ModController_C
+[2022.09.13-15.48.35:875][  0]Persistence: Loading mod controller: DLC_Riders_ModController_C
+[2022.09.13-15.48.35:877][  0]Persistence: Loading mod controller: DLC_RiddleOfSteel_ModController_C
+[2022.09.13-15.48.35:880][  0]Persistence: Loading mod controller: DLC_Pict_Modcontroller_C
+[2022.09.13-15.48.35:882][  0]Persistence: Loading mod controller: BP_Special_ModController_C
+[2022.09.13-15.48.35:885][  0]Persistence: Loading mod controller: BP_ModController_Khitai_DLC_C
+[2022.09.13-15.48.35:887][  0]Persistence: Loading mod controller: DLC_EARhino_Modcontroller_C
+[2022.09.13-15.48.35:889][  0]Persistence: Loading mod controller: DLC_BAS_Modcontroller_C
+[2022.09.13-15.48.35:892][  0]Persistence: Loading mod controller: DLC_Argos_ModController_C
+[2022.09.13-15.48.35:894][  0]Persistence: Loading mod controller: DLC_Aquilonia_ModController_C
+[2022.09.13-15.48.35:897][  0]Persistence: Loading mod controller: BP_ConanSword_DLC_ModController_C
+[2022.09.13-15.48.35:899][  0]Persistence: Loading mod controller: BP_ConanArmor_DLC_ModController_C
+[2022.09.13-15.48.35:901][  0]LogMemory:Display: Entered application state 'MatchStarting'.
+[2022.09.13-15.48.47:267][  0]LogStreaming:Error: Couldn't find file for package /Engine/EditorLandscapeResources/DataLayer requested by async loading code. NameToLoad: /Engine/EditorLandscapeResources/DataLayer
+[2022.09.13-15.48.47:267][  0]LogStreaming:Error: Found 1 dependent packages...
+[2022.09.13-15.48.47:268][  0]LogStreaming:Error:   /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x1_y2_A
+[2022.09.13-15.48.47:268][  0]LogStreaming:Error: Couldn't find file for package /Engine/EditorLandscapeResources/SplineEditorMesh requested by async loading code. NameToLoad: /Engine/EditorLandscapeResources/SplineEditorMesh
+[2022.09.13-15.48.47:268][  0]LogStreaming:Error: Found 1 dependent packages...
+[2022.09.13-15.48.47:269][  0]LogStreaming:Error:   /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x1_y5
+[2022.09.13-15.48.47:269][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2022.09.13-15.48.47:435][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2022.09.13-15.48.47:436][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2022.09.13-15.48.47:437][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2022.09.13-15.48.50:918][  0]LogStreamableManager:Error: RequestAsyncLoad called with empty or only null assets!
+[2022.09.13-15.48.56:931][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: SkeletalMeshComponent0
+[2022.09.13-15.48.56:931][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: SkeletalMeshComponent0
+[2022.09.13-15.48.56:932][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: SkeletalMeshComponent0
+[2022.09.13-15.49.02:105][  0]LogEngine: BlockTillLevelStreamingCompleted: 0
+[2022.09.13-15.49.02:105][  0]GlobalServerChannel:Display: Loading ServerSettings File: ../../../ConanSandbox/exiles0/Saved/Config/WindowsServer/ServerSettings.ini
+[2022.09.13-15.49.02:124][  0]GlobalServerChannel:Display: Loading ServerSettings File: ../../../ConanSandbox/exiles0/Saved/Config/WindowsServer/ServerSettings.ini
+[2022.09.13-15.49.02:130][  0]ConanSandbox:Display: AServerBlacklist::LoadSettings(): Blacklist file Z:/conanexiles/ConanSandbox/exiles0/Saved//blacklist.txt does not exist
+[2022.09.13-15.49.02:131][  0]ConanSandbox:Display: AServerBlacklist::LoadSettings(): Whitelist file Z:/conanexiles/ConanSandbox/exiles0/Saved//whitelist.txt does not exist
+[2022.09.13-15.49.03:019][  0]Audio:Display: [ConanSandbox_C_0] Not loading environment audio level: Dedicated server.
+[2022.09.13-15.49.03:222][  0]LogStreamableManager:Error: RequestAsyncLoad called with empty or only null assets!
+[2022.09.13-15.49.05:229][  0]Persistence:Display: WorldPersistence: Loading 207 actors
+[2022.09.13-15.49.06:554][  0]LogAnimation:Warning: Currently in Animation Blueprint mode. Please change AnimationMode to Use Animation Asset
+[2022.09.13-15.49.08:477][  0]LogAnimation:Warning: Currently in Animation Blueprint mode. Please change AnimationMode to Use Animation Asset
+[2022.09.13-15.49.08:478][  0]LogAnimation:Warning: Currently in Animation Blueprint mode. Please change AnimationMode to Use Animation Asset
+[2022.09.13-15.49.08:526][  0]LogAnimation:Warning: Currently in Animation Blueprint mode. Please change AnimationMode to Use Animation Asset
+[2022.09.13-15.49.08:628][  0]LogAnimation:Warning: Currently in Animation Blueprint mode. Please change AnimationMode to Use Animation Asset
+[2022.09.13-15.49.08:629][  0]LogAnimation:Warning: Currently in Animation Blueprint mode. Please change AnimationMode to Use Animation Asset
+[2022.09.13-15.49.08:724][  0]LogAnimation:Warning: Currently in Animation Blueprint mode. Please change AnimationMode to Use Animation Asset
+[2022.09.13-15.49.11:649][  0]LogAnimation:Warning: Currently in Animation Blueprint mode. Please change AnimationMode to Use Animation Asset
+[2022.09.13-15.49.12:053][  0]Persistence:Display: WorldPersistence: Finished loading 207 actors in 6.8 seconds.
+[2022.09.13-15.49.12:322][  0]LogMemory:Display: Entered application state 'WorldPersistenceDone'.
+[2022.09.13-15.49.12:467][  0]Persistence:Display: WorldPersistence: Found 3 alive characters
+[2022.09.13-15.49.12:471][  0]Persistence:Display: WorldPersistence: Found 3 alive characters
+[2022.09.13-15.49.12:475][  0]Persistence:Display: WorldPersistence: Found 156 Server Population Recordings
+[2022.09.13-15.49.12:475][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2022.09.13-15.49.12:493][  0]LogLoad: Took 43.491882 seconds to LoadMap(/Game/Maps/ConanSandbox/ConanSandbox)
+[2022.09.13-15.49.12:496][  0]LogLoad: (Engine Initialization) Total time: 57.61 seconds
+[2022.09.13-15.49.12:496][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2022.09.13-15.49.12:536][  0]LogNet:Warning: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 0.03, Realtime: 37.56. IpNetDriver_0
+[2022.09.13-15.49.12:815][  1]LogNetVersion: GetLocalNetworkVersion: CL: 412633, ProjectName: conansandbox, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3658063078
+[2022.09.13-15.49.12:815][  1]LogNetVersion: GetLocalNetworkVersionOverride: NetworkChecksum: 1226917865
+[2022.09.13-15.49.12:817][  1]Network:Display: Connecting to key distribution web service wss://ce-kds-winunoff-ams06.funcom.com:7001/server/...
+[2022.09.13-15.49.12:817][  1]Network:Display: Key distribution web service: Connecting (session: 61FBDD81414E8ECFACB83B9A12742C4D, mirror: wss://ce-kds-winunoff-ams06.funcom.com:7001/server/, fail count: 0, retry time: -1.0)
+[2022.09.13-15.49.12:818][  1]LogServerStats: Starting ServerStatReporter (Official server: 0)
+[2022.09.13-15.49.12:819][  1]LogServerStats: Startup report. StartupTime=57 Name=da_bussy_boiz Map=The Exiled Lands QueryPort=27015 Type=2 Region=0 MaxPlayers=40
+[2022.09.13-15.49.12:831][  1]SourceServerQueries:Warning: Started SourceServerQueries on port 27015
+[2022.09.13-15.49.12:848][  1]LogDreamworld:Display: SQLLite query data for TEXT (char*) at column 2 and row 0 result 0 is null, will return empty string instead
+[2022.09.13-15.49.12:859][  1]LogGameTweakSystem:Error: GameTweaks cache has been tampered with
+[2022.09.13-15.49.12:860][  1]LogGameTweakSystem:Warning: GameTweaks requires a restart to apply changes
+[2022.09.13-15.49.13:114][  1]LogWebSockets:Warning: Lws(Error): getprotobyname() failed with error 11004 
+[2022.09.13-15.49.13:115][  1]LogGenericPlatformMisc: FPlatformMisc::RequestExit(0)
+[2022.09.13-15.49.13:123][  1]LogGenericPlatformMisc: FPlatformMisc::RequestExit(1)
